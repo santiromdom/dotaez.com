@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DotaEz - La herramienta definitiva para mejorar tu juego en Dota 2. Análisis de partidas, predicciones y meta game.">
+    <title>DotaEz - Mejora tu juego en Dota 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/LogoDotaEz.png">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">
+                    <img src="img/LogoDotaEz.png" alt="DotaEz Logo">
+                    DotaEz
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#about">Cómo usar</a></li>
+                <li><a href="#download">Descargar</a></li>
+                <li><a href="#social">Síguenos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>DotaEz</h1>
+                <p class="hero-subtitle">La herramienta definitiva para dominar Dota 2</p>
+                <p class="hero-description">DotaEz es una aplicación no oficial para Dota 2 que te ayuda a obtener información de los jugadores de la partida como Picks, Smurfs, Spammers, % Victorias, etc en la pantalla de selección o Draft.</p>
+                <p class="hero-description">Durante el proceso de selección de Heroes, escanea con la cámara de tu móvil la consola de Dota 2 para obtener la información de tu partida clasificatoria y obtén ventaja para Counterpick a tus enemigos.</p>
+                <a href="#download" class="btn btn-primary">Descargar Ahora</a>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <img src="img/LogoDotaEz.png" alt="DotaEz App" style="max-width: 200px; opacity: 0.8;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS PRINCIPALES -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Características Principales</h2>
+            <p class="section-intro">Anticipate a los Picks de tus enemigos, obten información como % Victorias, SMURF, etc.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image" onclick="openModal(this.querySelector('img'))">
+                        <img src="img/20241209185057_1.jpg" alt="Característica 1">
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image" onclick="openModal(this.querySelector('img'))">
+                        <img src="img/20241223223328_1.jpg" alt="Característica 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CÓMO USAR SECCIÓN -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Cómo usar DotaEz</h2>
+            <p class="section-intro">Aprende a sacar el máximo provecho de DotaEz viendo este tutorial</p>
+            
+            <div class="video-container">
+                <video width="100%" controls style="max-width: 800px; margin: 0 auto; display: block; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                    <source src="img/Cómo usar DotaEz en Dota 2 - How to use DotaEz in Dota 2.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video HTML5.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL PARA IMÁGENES -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- DESCARGA SECCIÓN -->
+    <section class="download" id="download">
+        <div class="container">
+            <h2>Descargar DotaEz</h2>
+            <p class="section-intro">Disponible en Google Play Store para Android</p>
+            
+            <div class="download-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.pick.dotaez" class="btn btn-primary btn-large" target="_blank">
+                    📱 Descargar en Google Play
+                </a>
+            </div>
+            
+            <p class="system-info">Requiere Android 6.0 o superior</p>
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES SECCIÓN -->
+    <section class="social" id="social">
+        <div class="container">
+            <h2>Síguenos</h2>
+            <p class="section-intro">Únete a nuestra comunidad de jugadores</p>
+            
+            <div class="social-links">
+                <a href="https://www.youtube.com/@DotaEz-z3z" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>📺</span> YouTube
+                </a>
+                <a href="https://www.tiktok.com/@dotaez_app" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>🎵</span> TikTok
+                </a>
+                <a href="https://www.instagram.com/dotaez_app" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>📷</span> Instagram
+                </a>
+                <a href="https://twitter.com" class="social-btn" target="_blank" rel="noopener noreferrer">
+                    <span>𝕏</span> Twitter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DotaEz</h3>
+                    <p>La herramienta definitiva para jugadores de Dota 2</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#features">Características</a></li>
+                        <li><a href="#about">Cómo usar</a></li>
+                        <li><a href="#download">Descargar</a></li>
+                        <li><a href="#social">Síguenos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                        <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: info@dotaez.com</p>
+                    <p>© 2026 DotaEz. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

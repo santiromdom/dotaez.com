@@ -1,0 +1,19 @@
+{
+  "name": "dotaez-website",
+  "version": "1.0.0",
+  "description": "Sitio web profesional para dotaez.com",
+  "main": "index.html",
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "scripts": {
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "dotaez",
+    "landing-page",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ]
+}
