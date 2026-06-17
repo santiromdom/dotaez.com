@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sitio web profesional para dotaez.com",
   "main": "index.html",
-  "author": "Tu Nombre",
+  "author": "Santiago Romero Dominguez",
   "license": "MIT",
   "scripts": {
     "serve": "python -m http.server 8000"
